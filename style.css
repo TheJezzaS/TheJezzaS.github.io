@@ -1,0 +1,40 @@
+p {
+  color: red;
+  font-family: "Comic Sans MS";
+  transition: all 0.3s ease;
+}
+
+p:hover {
+  color:blue;
+  transform: scale(1.1);
+}
+
+h1 {
+  font-size: 24pt;
+}
+
+body {
+  width: calc(100% - 16px);
+  max-width: 600px;
+  margin: auto;
+  padding: 8px;
+}
+
+#second_paragraph {
+  color:blue;
+}
+
+button {
+  font-size: 14pt;
+  background-color: white;
+  padding: 6px 16px;
+  outline: none;
+  border: 2px solid #333333;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 4px 4px black;
+}
